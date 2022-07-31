@@ -1,0 +1,22 @@
+<h3>K-Drama!!</h3>
+<app-filed-username 
+#userNameRef
+        [elementId]="userNameId"
+        [label]="userNamelabel"
+        [formControl]="userNameControl"
+        [placeholder]="userNamepPlaceholder"
+        [explanationText]="userNameExplanationText"
+></app-filed-username>   
+<app-filed-password
+#passRef
+        [elementId]="passId"
+        [label]="passlabel"
+        [formControl]="passcontrol"
+        [placeholder]="passplaceholder"
+        [explanationText]="passExplanationText"
+       
+        ></app-filed-password>
+
+        <!-- (blurUsername) = "doOnBlurUserName($event)" -->
+
+        <!-- (blurPassword) = "doOnBlurPass($event)" -->
