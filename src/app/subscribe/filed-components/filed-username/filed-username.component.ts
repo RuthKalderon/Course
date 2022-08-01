@@ -20,7 +20,7 @@ export class FiledUsernameComponent implements OnInit {
   patternAllow: RegExp | null = null;
   inputType: string = "text";
   isValidationIcon: boolean = false;
-  @Output() blurUsername: EventEmitter<string> = new EventEmitter();
+  //@Output() blurUsername: EventEmitter<string> = new EventEmitter();
 
   ngOnInit(): void {
     }
@@ -29,9 +29,9 @@ export class FiledUsernameComponent implements OnInit {
 
   }
 
-  onBlur(event: any){
-    console.log(event);
-    this.blurUsername.emit(this.label);
-  }
+  // onBlur(event: any){
+  //   console.log(event);
+  //   this.blurUsername.emit(this.label);
+  // }
 
 }
